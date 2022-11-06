@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <PadreDeportes />
+  <PadreNumeross /> -->
+  <PadreComics />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import PadreDeportes from './components/PadreDeportes.vue';
+//import PadreNumeros from './components/PadreNumeros.vue';
+//import PadreNumeross from './components/PadreNumeross.vue';
+import PadreComics from './components/PadreComics';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // PadreDeportes,
+    //PadreNumeross
+    PadreComics
   }
 }
 </script>
